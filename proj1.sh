@@ -1,4 +1,4 @@
-=""
+a=""
 for word in $*; 
 do 
 #echo "$word"
