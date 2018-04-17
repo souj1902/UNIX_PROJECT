@@ -1,0 +1,6 @@
+for w in $*;
+do
+	a="$a+$w";
+done
+
+firefox youtube.com/results?search_query=${a#?}
